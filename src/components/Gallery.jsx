@@ -6,15 +6,15 @@ import { Paper } from '@mui/material';
 
 const galleryImages = [
   {
-    src: '/images/garage1.jpg',
+    src={`${process.env.PUBLIC_URL}/images/garage1.jpg`},
     alt: 'Гаражный кооператив 1'
   },
   {
-    src: '/images/garage2.jpg',
+   src={`${process.env.PUBLIC_URL}/images/garage2.jpg`},
     alt: 'Гаражный кооператив 2'
   },
   {
-    src: '/images/garage3.jpg',
+    src={`${process.env.PUBLIC_URL}/images/garage3.jpg`},
     alt: 'Гаражный кооператив 3'
   }
 ];
