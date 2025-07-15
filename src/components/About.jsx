@@ -70,7 +70,7 @@ function AboutSection() {
           >
             <Box
               component="img"
-              src="/images/parking.jpg"
+              src={`${process.env.PUBLIC_URL}/images/parking.jpg`}
               alt="Парковка гаражного кооператива"
               sx={{
                 width: '100%',
